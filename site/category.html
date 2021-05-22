@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacarlounge</title>
+
+    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/slick.css">
+    <link type="text/css" rel="stylesheet" href="css/slick-theme.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__menu">
+            <div class="container">
+                <ul class="header__menu-box">
+                    <li class="header__menu-item col-lg-2">
+                        <div class="header__logo">
+                            <a href="index.html">
+                                <img src="image/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="header__menu-item navMobile col-xl-5">
+                        <nav class="menu">
+                            <ul class="menu__box">
+                                <li class="menu__item"><a href="category.html">Фильмы</a></li>
+                                <li class="menu__item"><a href="category.html">Сериалы</a></li>
+                                <li class="menu__item"><a href="category.html">Мультфильмы</a></li>
+                                <li class="menu__item"><a href="category.html">Передачи и шоу</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="header__menu-item col-lg-3" data-da=".navMobile,575,1">
+                        <div class="header__search">
+                            <input class="input" type="search" placeholder="Поиск">
+                        </div>
+                    </li>
+                    <li class="header__menu-item col-lg-2" data-da=".navMobile,991,last">
+                        <div class="header__user">
+                            <a href="user.html">
+                                <img src="image/posters/Rectangle 5-12.jpg" alt="user">
+                                <p>Никнейм</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="header__menu-item col-sm-1 ">
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="new-movie">
+        <div class="container">
+            <div class="new-movie__slider">
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5-9.jpg" alt="movie">
+                    </a>
+                </div>
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5-11.jpg" alt="movie">
+                    </a>
+                </div>
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5-13.jpg" alt="movie">
+                    </a>
+                </div>
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5-1.jpg" alt="movie">
+                    </a>
+                </div>
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5.jpg" alt="movie">
+                    </a>
+                </div>
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5-9.jpg" alt="movie">
+                    </a>
+                </div>
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5-11.jpg" alt="movie">
+                    </a>
+                </div>
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5-13.jpg" alt="movie">
+                    </a>
+                </div>
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5-1.jpg" alt="movie">
+                    </a>
+                </div>
+                <div class="new-movie__slider-item">
+                    <a href="#" data-title="Смотреть Название">
+                        <img src="image/posters/Rectangle 5.jpg" alt="movie">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-movie">
+        <div class="container">
+            <div class="section-movie__filter">
+                <div class="section-movie__filter-item"><button class="btn1">Сортировать</button></div>
+                <div class="section-movie__filter-item">
+                    <div class="select">
+                        <div class="select__header">
+                            <span class="select__current">
+                                Дата
+                            </span>
+                            <div class="select__icon">
+                                <svg width="9" height="7" viewbox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.195545 1.63026L3.91075 6.3552C4.23615 6.92562 4.76383 6.92562 5.08935 6.3552L8.80422 1.63093C8.87683 1.52758 8.95503 1.34303 8.97093 1.21771C9.02203 0.811581 9.06263 0 8.5703 0H0.429939C-0.0624088 0 -0.0220353 0.811114 0.0289501 1.21713C0.0447371 1.34247 0.123055 1.52691 0.195545 1.63026Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="select__body">
+                            <div class="select__item">2021</div>
+                            <div class="select__item">2020</div>
+                            <div class="select__item">2019</div>
+                            <div class="select__item">2018</div>
+                            <div class="select__item">2017</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-movie__filter-item">
+                    <div class="select">
+                        <div class="select__header">
+                            <span class="select__current">
+                                Жанр
+                            </span>
+                            <div class="select__icon">
+                                <svg width="9" height="7" viewbox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.195545 1.63026L3.91075 6.3552C4.23615 6.92562 4.76383 6.92562 5.08935 6.3552L8.80422 1.63093C8.87683 1.52758 8.95503 1.34303 8.97093 1.21771C9.02203 0.811581 9.06263 0 8.5703 0H0.429939C-0.0624088 0 -0.0220353 0.811114 0.0289501 1.21713C0.0447371 1.34247 0.123055 1.52691 0.195545 1.63026Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="select__body">
+                            <div class="select__item">Экшен</div>
+                            <div class="select__item">Комедия</div>
+                            <div class="select__item">Фантастика</div>
+                            <div class="select__item">Ужасы</div>
+                            <div class="select__item">Боевик</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-movie__filter-item">
+                    <div class="select">
+                        <div class="select__header">
+                            <span class="select__current">
+                                Страна
+                            </span>
+                            <div class="select__icon">
+                                <svg width="9" height="7" viewbox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.195545 1.63026L3.91075 6.3552C4.23615 6.92562 4.76383 6.92562 5.08935 6.3552L8.80422 1.63093C8.87683 1.52758 8.95503 1.34303 8.97093 1.21771C9.02203 0.811581 9.06263 0 8.5703 0H0.429939C-0.0624088 0 -0.0220353 0.811114 0.0289501 1.21713C0.0447371 1.34247 0.123055 1.52691 0.195545 1.63026Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="select__body">
+                            <div class="select__item">США</div>
+                            <div class="select__item">Бразилия</div>
+                            <div class="select__item">Канада</div>
+                            <div class="select__item">Украина</div>
+                            <div class="select__item">Китай</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-movie__filter-item">
+                    <div class="select">
+                        <div class="select__header">
+                            <span class="select__current">
+                                Качество
+                            </span>
+                            <div class="select__icon">
+                                <svg width="9" height="7" viewbox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.195545 1.63026L3.91075 6.3552C4.23615 6.92562 4.76383 6.92562 5.08935 6.3552L8.80422 1.63093C8.87683 1.52758 8.95503 1.34303 8.97093 1.21771C9.02203 0.811581 9.06263 0 8.5703 0H0.429939C-0.0624088 0 -0.0220353 0.811114 0.0289501 1.21713C0.0447371 1.34247 0.123055 1.52691 0.195545 1.63026Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="select__body">
+                            <div class="select__item">1080</div>
+                            <div class="select__item">720</div>
+                            <div class="select__item">480</div>
+                            <div class="select__item">360</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-movie__filter-item"><button class="btn1">Сбросить
+                        <svg width="15" height="15" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.8066 2.19615C9.88193 -0.728469 5.1217 -0.728469 2.19708 2.19615C0.780388 3.6134 0 5.4973 0 7.50087C0 9.50444 0.780388 11.3883 2.19708 12.805C3.65968 14.2676 5.58076 14.9986 7.5018 14.9986C9.42285 14.9986 11.3439 14.2676 12.8065 12.805C15.7311 9.88041 15.7311 5.12133 12.8066 2.19615ZM11.9849 11.9834C9.51293 14.4553 5.49067 14.4553 3.01872 11.9834C1.8217 10.7863 1.16216 9.19416 1.16216 7.50087C1.16216 5.80758 1.8217 4.2154 3.01872 3.01779C5.49067 0.54584 9.51293 0.546426 11.9849 3.01779C14.4562 5.48974 14.4562 9.512 11.9849 11.9834Z"
+                                fill="white" />
+                            <path
+                                d="M10.0057 9.10632L8.36064 7.4636L10.0057 5.82088C10.2323 5.59427 10.2323 5.22644 10.0063 4.99921C9.77909 4.77143 9.41126 4.77201 9.18406 4.99863L7.53785 6.64252L5.89165 4.99863C5.66445 4.77201 5.29662 4.77143 5.06942 4.99921C4.84281 5.22641 4.84281 5.59424 5.07001 5.82088L6.71507 7.4636L5.07001 9.10632C4.84281 9.33294 4.84281 9.70076 5.06942 9.92799C5.18274 10.0419 5.33207 10.0982 5.48084 10.0982C5.62961 10.0982 5.77836 10.0413 5.89168 9.92855L7.53788 8.28466L9.18409 9.92855C9.29741 10.0419 9.44615 10.0982 9.59492 10.0982C9.7437 10.0982 9.89302 10.0413 10.0063 9.92799C10.2329 9.70076 10.2329 9.33294 10.0057 9.10632Z"
+                                fill="white" />
+                        </svg>
+                    </button></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-11.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-12.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-13.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-14.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-15.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-11.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-12.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-md-4 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-13.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-14.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-15.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-11.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-12.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-md-4 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-13.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-14.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-2">
+                    <div class="section-movie__poster">
+                        <a href="#" data-title="Смотреть Название">
+                            <img src="image/posters/Rectangle 5-15.jpg" alt="img">
+                            <p>Название</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="page-nav" aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled"><a class="page-link active" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item"><a class="page-link" href="#">17</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <footer class="footer footer--darklight">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-2">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="image/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-8">
+                    <nav class="nav">
+                        <ul class="nav__box">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">О нас</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4 col-md-2">
+                    <div class="soc">
+                        <div class="soc__item">
+                            <a class="soc__link" href="#">
+                                <img src="image/facebook 1.svg" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="soc__item">
+                            <a class="soc__link" href="#">
+                                <img src="image/instagram 1.svg" alt="instagram">
+                            </a>
+                        </div>
+                        <div class="soc__item">
+                            <a class="soc__link" href="#">
+                                <img src="image/vk 1.svg" alt="vk">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jQuery v3.6.0.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/selectors.js"></script>
+    <script type="text/javascript" src="js/dynamicAdapt.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
