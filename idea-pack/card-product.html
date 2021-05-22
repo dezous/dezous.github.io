@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idea Pack</title>
+</head>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/slick-theme.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.min.css">
+
+<body class="animate__animated animate__fadeIn">
+    <nav class="menu">
+        <div class="container">
+            <div class="menu__box row">
+                <div class="menu-left col-5 col-md-7 col-lg-3 animate__animated animate__fadeInLeft"
+                    style="animation-delay: 0.4s;">
+                    <div class="logo">
+                        <a href="/">
+                            <img src="image/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-right col-7 col-md-5 col-lg-9  ">
+                    <div class="menu__info animate__animated animate__fadeInDown" style="animation-delay: 0.2s;">
+                        <div class="soc-icon">
+                            <a href="#">
+                                <img src="image/soc/viber.svg" alt="viber">
+                            </a>
+                            <a href="#">
+                                <img src="image/soc/telegram.svg" alt="telegram">
+                            </a>
+                        </div>
+                        <button class="btn-green">
+                            <span class="btn-green-bg"></span>
+                            <p>Замовити дзвінок</p>
+                        </button>
+                        <div class="phone">
+                            <a href="tel:+380958110088">
+                                +38 095 811 00 88
+                            </a>
+                            <a href="tel:+380988110088">
+                                +38 098 811 00 88
+                            </a>
+                        </div>
+                        <div class="menu__buttons">
+                            <button id="basket">
+                                <img src="image/icon/basket.svg" alt="basket">
+                                <span>15</span>
+                            </button>
+                            <button id="user">
+                                <img src="image/icon/user.svg" alt="profile">
+                            </button>
+                            <button id="search">
+                                <img src="image/icon/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__burger animate__animated animate__fadeInRight" style="animation-delay: 0.4s;">
+                        <span></span>
+                    </div>
+                    <nav class="menu__list animate__animated animate__fadeInRight "
+                        style="animation-delay: 0.4s; animation-duration: 1.2s;">
+                        <ul class="menu__list-box">
+                            <li class="menu__item"><a href="#">Головна</a></li>
+                            <li class="menu__item" id="link-catalog">
+                                <a href="#">Продукція</a>
+                                <div class="dop-menu">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="drop-menu__item">
+                                                <a href="#">
+                                                    <div class="drop-menu__item-text">
+                                                        <span>Классичні</span>
+                                                        <h6>Одношарові стакани</h6>
+                                                    </div>
+                                                    <div class="drop-menu__item-img">
+                                                        <img src="image/cup-links/1copy.png" alt="cup">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="drop-menu__item">
+                                                <a href="#">
+                                                    <div class="drop-menu__item-text">
+                                                        <span>ripple</span>
+                                                        <h6>Гофровані / з тисненням
+                                                            стакани</h6>
+                                                    </div>
+                                                    <div class="drop-menu__item-img">
+                                                        <img src="image/cup-links/4copy.png" alt="cup">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="drop-menu__item">
+                                                <a href="#">
+                                                    <div class="drop-menu__item-text">
+                                                        <span>екологічні</span>
+                                                        <h6>Крафтові стакани</h6>
+                                                    </div>
+                                                    <div class="drop-menu__item-img">
+                                                        <img src="image/cup-links/2copy.png" alt="cup">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="drop-menu__item">
+                                                <a href="#">
+                                                    <div class="drop-menu__item-text">
+                                                        <span>екологічні</span>
+                                                        <h6>Крафтові стакани</h6>
+                                                    </div>
+                                                    <div class="drop-menu__item-img">
+                                                        <img src="image/cup-links/5.png" alt="cup">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="drop-menu__item">
+                                                <a href="#">
+                                                    <div class="drop-menu__item-text">
+                                                        <span>double wall</span>
+                                                        <h6>Двошарові стакани</h6>
+                                                    </div>
+                                                    <div class="drop-menu__item-img">
+                                                        <img src="image/cup-links/2copy.png" alt="cup">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="drop-menu__item">
+                                                <a href="#">
+                                                    <div class="drop-menu__item-text">
+                                                        <span>з вашим лого</span>
+                                                        <h6>брендовані стакани</h6>
+                                                    </div>
+                                                    <div class="drop-menu__item-img">
+                                                        <img src="image/cup-links/7.png" alt="cup">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 text-lg-right">
+                                            <a href="#">Перейти в каталог
+                                                <svg width="29" height="14" viewbox="0 0 29 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0 7H27M27 7L20.8235 1M27 7L20.8235 13" stroke="#A0C800"
+                                                        stroke-width="2" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu__item"><a href="#">Про компанію</a></li>
+                            <li class="menu__item"><a href="#">Новини</a></li>
+                            <li class="menu__item"><a href="#">Контакти</a></li>
+                            <li class="menu__item"><a href="#">Оплата і доставка</a></li>
+                            <li class="menu__btn">
+                                <button class="btn-green">
+                                    <span class="btn-green-bg"></span>
+                                    <p>Замовити дзвінок</p>
+                                </button>
+                            </li>
+                            <li class="menu__phone">
+                                <div class="phone">
+                                    <a href="tel:+380958110088">
+                                        +38 095 811 00 88
+                                    </a>
+                                    <a href="tel:+380988110088">
+                                        +38 098 811 00 88
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="menu__soc">
+                                <div class="soc-icon">
+                                    <a href="#">
+                                        <img src="image/soc/viber.svg" alt="viber">
+                                    </a>
+                                    <a href="#">
+                                        <img src="image/soc/telegram.svg" alt="telegram">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <section class="crumbs">
+            <div class="container">
+                <ul class="crumbs__box animate__animated animate__fadeInDown  wow">
+                    <li class="crumbs__item"><a href="#">Головна</a></li>
+                    <li class="crumbs__item"><a href="#">Продукція</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="card-product">
+            <div class="container">
+                <div class="row justify-content-xl-end">
+                    <div class="col-lg-5 animate__animated animate__fadeIn wow" style="animation-delay: 0.1s;">
+                        <div class="card-product__box-slider">
+                            <button class="slider-arrow arrow-prev">
+                                <svg width="9" height="14" viewbox="0 0 9 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.5 1.5L2 7L7.5 12.5" stroke="black" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </button>
+                            <div class="card-product__box-img">
+                                <img src="image/products/1.jpg" alt="product">
+                                <img src="image/products/1.jpg" alt="product">
+                                <img src="image/products/1.jpg" alt="product">
+                            </div>
+                            <button class="slider-arrow arrow-next">
+                                <svg width="9" height="14" viewbox="0 0 9 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1.5L7 7L1.5 12.5" stroke="black" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card-product__info">
+                            <div class="card-product__name">
+                                <h4 class="animate__animated animate__fadeInUp wow" style="animation-delay: 0.1s;">
+                                    Стакан
+                                    одношаровий Білий 250 мл</h4>
+                                <div class="card-product__name-cod animate__animated animate__fadeInUp wow"
+                                    style="animation-delay: 0.2s;">
+                                    Код товару: SW10ST001
+                                </div>
+                            </div>
+                            <div class="card-product__price">
+                                <div class="quantity animate__animated animate__fadeInUp wow"
+                                    style="animation-delay: 0.3s;">
+                                    <p>Рукав <span>50</span> шт.:</p>
+                                </div>
+                                <div class="price animate__animated animate__fadeInUp wow"
+                                    style="animation-delay: 0.4s;">
+                                    <p><span>250</span> грн</p>
+                                    <p><span>2.50</span> грн/шт</p>
+                                </div>
+                                <div class="card-product__price-buttons animate__animated animate__fadeInUp wow"
+                                    style="animation-delay: 0.5s;">
+                                    <div class="card-product__price-counter">
+                                        <button type="submit" class="btn-minus">
+                                            -
+                                        </button>
+                                        <input type="text" value="2">
+                                        <button type="submit" class="btn-plus">
+                                            +
+                                        </button>
+                                    </div>
+                                    <button class="btn-green">
+                                        <span class="btn-green-bg"></span>
+                                        <p>додати до кошика</p>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-product__characteristics">
+                                <ul class="card-product__characteristics-list animate__animated animate__fadeInUp wow"
+                                    style="animation-delay: 0.6s;">
+                                    <h6>Розміри:</h6>
+                                    <li>Зверху - 80,05 мм,</li>
+                                    <li>Знизу - 52,70 мм,</li>
+                                    <li>Висота - 117,00 мм</li>
+                                </ul>
+                                <div class="card-product__characteristics-description">
+                                    <h6 class="animate__animated animate__fadeInUp wow" style="animation-delay: 0.7s;">
+                                        Обсяг - 296 мл.</h6>
+                                    <p class="animate__animated animate__fadeInUp wow" style="animation-delay: 0.8s;">
+                                        Одноразовый бумажный стакан для горячих и холодных напитков. Идеально подходит
+                                        для подачи чая, кофе, газированных и других напитков среднего объема. Стакан
+                                        изготовлен из качественного целлюлозного ламинированного картона. Легкий,
+                                        экологичный, практичный. Соответствует строгим стандартам качества пищевой
+                                        безопасности.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="variants d-none d-xl-flex">
+                                <div class="variants-box">
+                                    <div class="variants-item animate__animated animate__fadeInUp wow"
+                                        style="animation-delay: 0.9s;">
+                                        <img src="image/products/col/1.svg" alt="variant">
+                                        <p>50 шт</p>
+                                    </div>
+                                </div>
+                                <div class="variants-box">
+                                    <div class="variants-item animate__animated animate__fadeInUp wow"
+                                        style="animation-delay: 1s;">
+                                        <img src="image/products/col/2.svg" alt="variant">
+                                        <p>1150 шт</p>
+                                    </div>
+                                </div>
+                                <div class="variants-box">
+                                    <div class="variants-item animate__animated animate__fadeInUp wow"
+                                        style="animation-delay: 1.1s;">
+                                        <img src="image/products/col/3.svg" alt="variant">
+                                        <p>34 500 шт</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 mt-4 d-xl-none">
+                        <div class="variants ">
+                            <div class="variants-box">
+                                <div class="variants-item animate__animated animate__fadeInUp wow"
+                                    style="animation-delay: 0.9s;">
+                                    <img src="image/products/col/1.svg" alt="variant">
+                                    <p>50 шт</p>
+                                </div>
+                            </div>
+                            <div class="variants-box">
+                                <div class="variants-item animate__animated animate__fadeInUp wow"
+                                    style="animation-delay: 1s;">
+                                    <img src="image/products/col/2.svg" alt="variant">
+                                    <p>1150 шт</p>
+                                </div>
+                            </div>
+                            <div class="variants-box">
+                                <div class="variants-item animate__animated animate__fadeInUp wow"
+                                    style="animation-delay: 1.1s;">
+                                    <img src="image/products/col/3.svg" alt="variant">
+                                    <p>34 500 шт</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <article class="slider-products animate__animated animate__fadeInUp wow" style="animation-delay: 0.1s;">
+                <div class="container">
+                    <h3>Супутні товари</h3>
+                    <div class="row">
+                        <button class="slider-arrow arrow-prev2">
+                            <svg width="9" height="14" viewbox="0 0 9 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 1.5L2 7L7.5 12.5" stroke="black" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </button>
+                        <div href="#" class="slider-products__box">
+                            <a class="product-card">
+                                <div class="product-card__img">
+                                    <div class="product-card__img-box">
+                                        <img src="image/products/slider-products/1.png" alt="product">
+                                    </div>
+                                </div>
+                                <div class="product-card__text">
+                                    <h5>Размешиватель деревянный 18 см</h5>
+                                    <p>
+                                        Одноразовый деревянный размешиватель для напитков длиной 18 см подходит для
+                                        стаканов любого объема.
+                                    </p>
+                                    <div class="quantity">
+                                        <p>Упаковка <span>1000</span> шт:</p>
+                                    </div>
+                                    <div class="price">
+                                        <p><span>250</span> грн</p>
+                                        <p><span>0,50</span> грн/шт</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="product-card">
+                                <div class="product-card__img">
+                                    <div class="product-card__img-box">
+                                        <img src="image/products/slider-products/2.png" alt="product">
+                                    </div>
+                                </div>
+                                <div class="product-card__text">
+                                    <h5>Размешиватель деревянный 18 см</h5>
+                                    <p>
+                                        Одноразовый деревянный размешиватель для напитков длиной 18 см подходит для
+                                        стаканов любого объема.
+                                    </p>
+                                    <div class="quantity">
+                                        <p>Упаковка <span>1000</span> шт:</p>
+                                    </div>
+                                    <div class="price">
+                                        <p><span>250</span> грн</p>
+                                        <p><span>0,50</span> грн/шт</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="product-card">
+                                <div class="product-card__img">
+                                    <div class="product-card__img-box">
+                                        <img src="image/products/slider-products/3.png" alt="product">
+                                    </div>
+                                </div>
+                                <div class="product-card__text">
+                                    <h5>Размешиватель деревянный 18 см</h5>
+                                    <p>
+                                        Одноразовый деревянный размешиватель для напитков длиной 18 см подходит для
+                                        стаканов любого объема.
+                                    </p>
+                                    <div class="quantity">
+                                        <p>Упаковка <span>1000</span> шт:</p>
+                                    </div>
+                                    <div class="price">
+                                        <p><span>250</span> грн</p>
+                                        <p><span>0,50</span> грн/шт</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="product-card">
+                                <div class="product-card__img">
+                                    <div class="product-card__img-box">
+                                        <img src="image/products/slider-products/4.png" alt="product">
+                                    </div>
+                                </div>
+                                <div class="product-card__text">
+                                    <h5>Размешиватель деревянный 18 см</h5>
+                                    <p>
+                                        Одноразовый деревянный размешиватель для напитков длиной 18 см подходит для
+                                        стаканов любого объема.
+                                    </p>
+                                    <div class="quantity">
+                                        <p>Упаковка <span>1000</span> шт:</p>
+                                    </div>
+                                    <div class="price">
+                                        <p><span>250</span> грн</p>
+                                        <p><span>0,50</span> грн/шт</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="product-card">
+                                <div class="product-card__img">
+                                    <div class="product-card__img-box">
+                                        <img src="image/products/slider-products/1.png" alt="product">
+                                    </div>
+                                </div>
+                                <div class="product-card__text">
+                                    <h5>Размешиватель деревянный 18 см</h5>
+                                    <p>
+                                        Одноразовый деревянный размешиватель для напитков длиной 18 см подходит для
+                                        стаканов любого объема.
+                                    </p>
+                                    <div class="quantity">
+                                        <p>Упаковка <span>1000</span> шт:</p>
+                                    </div>
+                                    <div class="price">
+                                        <p><span>250</span> грн</p>
+                                        <p><span>0,50</span> грн/шт</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="product-card">
+                                <div class="product-card__img">
+                                    <div class="product-card__img-box">
+                                        <img src="image/products/slider-products/2.png" alt="product">
+                                    </div>
+                                </div>
+                                <div class="product-card__text">
+                                    <h5>Размешиватель деревянный 18 см</h5>
+                                    <p>
+                                        Одноразовый деревянный размешиватель для напитков длиной 18 см подходит для
+                                        стаканов любого объема.
+                                    </p>
+                                    <div class="quantity">
+                                        <p>Упаковка <span>1000</span> шт:</p>
+                                    </div>
+                                    <div class="price">
+                                        <p><span>250</span> грн</p>
+                                        <p><span>0,50</span> грн/шт</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="product-card">
+                                <div class="product-card__img">
+                                    <div class="product-card__img-box">
+                                        <img src="image/products/slider-products/3.png" alt="product">
+                                    </div>
+                                </div>
+                                <div class="product-card__text">
+                                    <h5>Размешиватель деревянный 18 см</h5>
+                                    <p>
+                                        Одноразовый деревянный размешиватель для напитков длиной 18 см подходит для
+                                        стаканов любого объема.
+                                    </p>
+                                    <div class="quantity">
+                                        <p>Упаковка <span>1000</span> шт:</p>
+                                    </div>
+                                    <div class="price">
+                                        <p><span>250</span> грн</p>
+                                        <p><span>0,50</span> грн/шт</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="product-card">
+                                <div class="product-card__img">
+                                    <div class="product-card__img-box">
+                                        <img src="image/products/slider-products/4.png" alt="product">
+                                    </div>
+                                </div>
+                                <div class="product-card__text">
+                                    <h5>Размешиватель деревянный 18 см</h5>
+                                    <p>
+                                        Одноразовый деревянный размешиватель для напитков длиной 18 см подходит для
+                                        стаканов любого объема.
+                                    </p>
+                                    <div class="quantity">
+                                        <p>Упаковка <span>1000</span> шт:</p>
+                                    </div>
+                                    <div class="price">
+                                        <p><span>250</span> грн</p>
+                                        <p><span>0,50</span> грн/шт</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <button class="slider-arrow arrow-next2">
+                            <svg width="9" height="14" viewbox="0 0 9 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 1.5L7 7L1.5 12.5" stroke="black" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer__column col-6 col-sm-4 col-lg-3 wow animate__animated animate__fadeInUp"
+                    style="animation-delay: 0.1s;">
+                    <div class="logo">
+                        <a href="/">
+                            <img src="image/logo-footer.svg" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__column col-6 col-sm-4 col-lg-2 wow animate__animated animate__fadeInUp"
+                    style="animation-delay: 0.2s;">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__title">Меню</li>
+                        <li class="footer-menu__item"><a href="#">Головна</a> </li>
+                        <li class="footer-menu__item"><a href="#">Про компанію</a> </li>
+                        <li class="footer-menu__item"><a href="#">Новини</a></li>
+                        <li class="footer-menu__item"><a href="#">Оплата і доставка</a></li>
+                        <li class="footer-menu__item"><a href="#">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column col-12 col-sm-4 col-lg-3 col-xl-4 wow animate__animated animate__fadeInUp"
+                    style="animation-delay: 0.3s;">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__title">Продукція</li>
+                        <li class="footer-menu__flex">
+                            <ul>
+                                <li class="footer-menu__item"><a href="#">Одношарові стаканчики</a></li>
+                                <li class="footer-menu__item"><a href="#">Двошарові стаканчики</a></li>
+                                <li class="footer-menu__item"><a href="#">Аксесуари для чашок</a></li>
+                                <li class="footer-menu__item"><a href="#">Одношарові стаканчики</a></li>
+                                <li class="footer-menu__item"><a href="#">Двошарові стаканчики</a></li>
+                            </ul>
+                            <ul>
+                                <li class="footer-menu__item"><a href="#">Одношарові стаканчики</a></li>
+                                <li class="footer-menu__item"><a href="#">Двошарові стаканчики</a></li>
+                                <li class="footer-menu__item"><a href="#">Аксесуари для чашок</a></li>
+                                <li class="footer-menu__item"><a href="#">Одношарові стаканчики</a></li>
+                                <li class="footer-menu__item"><a href="#">Двошарові стаканчики</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column col-12 col-lg-4 col-xl-3 d-flex justify-content-lg-end wow animate__animated animate__fadeInUp"
+                    style="animation-delay: 0.4s;">
+                    <div class="footer__contacts">
+                        <div class="footer__contacts-info">
+                            <a href="mailto:info@idea-pack.com"><img src="image/icon/mail.svg"
+                                    alt="email">info@idea-pack.com</a>
+                        </div>
+                        <div class="footer__contacts-info">
+                            <div class="phone">
+                                <a href="tel:+380958110088">
+                                    <img src="image/icon/phone.svg" alt="phone">
+                                    +38 095 811 00 88
+                                </a>
+                                <a href="tel:+380988110088">
+                                    +38 098 811 00 88
+                                </a>
+                            </div>
+                        </div>
+                        <div class="soc-icon">
+                            <a href="#">
+                                <img src="image/soc/viber.svg" alt="viber">
+                            </a>
+                            <a href="#">
+                                <img src="image/soc/telegram.svg" alt="telegram">
+                            </a>
+                        </div>
+                        <button class="btn-green">
+                            <span class="btn-green-bg"></span>
+                            <p>Отримати консультацію</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a class="privacy-policy col-12 wow animate__animated animate__fadeInUp"
+                    style="animation-delay: 0.2s;">Політика конфіденційності</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jQuery v3.6.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+</body>
+
+</html>
