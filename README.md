@@ -21,5 +21,12 @@
 <br />
 <br />
 
+<details>
+  <summary>:zap: Statistics:</summary>
+   <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VladKarliuk&langs_count=8&layout=compact" />
+    <br />
+    <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=VladKarliuk&show_icons=true" />
+</details>
+
 [linkedin]: https://www.linkedin.com//in/vladislav-karliuk-018b8a151/
 [instagram]: https://www.instagram.com/dezous/
