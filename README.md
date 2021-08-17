@@ -1,4 +1,4 @@
- ### Hi there, i'm Vlad
+ ### Hi, i'm Vlad
 
  ## I'm a junior FrontEnd Developer
 
