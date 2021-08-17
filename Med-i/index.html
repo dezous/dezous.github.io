@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med-i</title>
+
+    <link rel="stylesheet" href="css/normolize.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3">
+                    <div class="nav__logo">
+                        <a href="#">
+                            <picture>
+                                <source media="(max-width: 568px)" srcset="image/logo-576w.svg">
+                                <source media="(min-width: 568px)" srcset="image/logo.svg">
+                                <img src="image/logo.svg" alt="logo">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-8 col-sm-9">
+                    <div class="nav__items">
+                        <div class="nav__item">
+                            <button class="btn nav__item-btn">Обратный звонок</button>
+                        </div>
+                        <div class="nav__item">
+                            <a href="#">
+                                <svg width="23" height="23" viewbox="0 0 23 23" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.77499 12.9375C10.0037 12.9375 10.2231 12.8466 10.3849 12.6849C10.5466 12.5231 10.6375 12.3037 10.6375 12.075C10.6375 11.8462 10.5466 11.6269 10.3849 11.4651C10.2231 11.3034 10.0037 11.2125 9.77499 11.2125C9.54624 11.2125 9.32686 11.3034 9.16511 11.4651C9.00336 11.6269 8.91249 11.8462 8.91249 12.075C8.91249 12.3037 9.00336 12.5231 9.16511 12.6849C9.32686 12.8466 9.54624 12.9375 9.77499 12.9375Z"
+                                        fill="#666666" />
+                                    <path
+                                        d="M12.65 4.02499C12.65 3.94211 12.632 3.86022 12.5974 3.78492C12.5627 3.70962 12.5122 3.6427 12.4493 3.58875C12.3864 3.53479 12.3126 3.49507 12.2329 3.47231C12.1532 3.44955 12.0695 3.44429 11.9876 3.45689L3.9376 4.68739C3.80188 4.70826 3.67811 4.77702 3.58867 4.88121C3.49924 4.98541 3.45005 5.11818 3.45 5.25549V17.7445C3.45005 17.8818 3.49924 18.0146 3.58867 18.1188C3.67811 18.223 3.80188 18.2917 3.9376 18.3126L11.9876 19.5442C12.0695 19.5568 12.1532 19.5516 12.2329 19.5288C12.3126 19.5061 12.3864 19.4663 12.4493 19.4124C12.5122 19.3584 12.5627 19.2915 12.5974 19.2162C12.632 19.1409 12.65 19.059 12.65 18.9761V11.5H18.5978L17.4512 12.5051C17.3433 12.6072 17.2792 12.7472 17.2722 12.8957C17.2652 13.0441 17.3159 13.1895 17.4138 13.3013C17.5117 13.4131 17.649 13.4828 17.7971 13.4955C17.9451 13.5083 18.0924 13.4633 18.2079 13.3699L20.5033 11.3574C20.5649 11.3034 20.6142 11.2369 20.648 11.1624C20.6818 11.0878 20.6993 11.0069 20.6993 10.925C20.6993 10.8431 20.6818 10.7622 20.648 10.6876C20.6142 10.6131 20.5649 10.5466 20.5033 10.4926L18.2079 8.48009C18.0933 8.37975 17.9434 8.32907 17.7914 8.3392C17.6393 8.34934 17.4975 8.41946 17.3972 8.53414C17.2969 8.64882 17.2462 8.79867 17.2563 8.95071C17.2664 9.10276 17.3366 9.24455 17.4512 9.34489L18.5978 10.35H12.65V4.02499ZM11.5 4.69429V18.308L4.6 17.25V5.74884L11.5 4.69429Z"
+                                        fill="#666666" />
+                                    <path
+                                        d="M14.375 18.4H13.8V12.65H14.95V17.825C14.95 17.9775 14.8894 18.1237 14.7816 18.2316C14.6738 18.3394 14.5275 18.4 14.375 18.4Z"
+                                        fill="#666666" />
+                                    <path
+                                        d="M13.8 9.19999V4.59999H14.375C14.5275 4.59999 14.6738 4.66057 14.7816 4.7684C14.8894 4.87624 14.95 5.02249 14.95 5.17499V9.19999H13.8Z"
+                                        fill="#666666" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="nav__item nav__item-user">
+                            <a href="#">
+                                <svg width="19" height="19" viewbox="0 0 19 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.9292 14.1684C15.5792 13.3393 15.0713 12.5862 14.4337 11.9511C13.7981 11.3141 13.0451 10.8063 12.2164 10.4556C12.209 10.4519 12.2016 10.45 12.1941 10.4463C13.3501 9.61133 14.1016 8.25127 14.1016 6.7168C14.1016 4.1748 12.042 2.11523 9.5 2.11523C6.95801 2.11523 4.89844 4.1748 4.89844 6.7168C4.89844 8.25127 5.6499 9.61133 6.80586 10.4481C6.79844 10.4519 6.79102 10.4537 6.78359 10.4574C5.95234 10.8081 5.20645 11.3109 4.56631 11.9529C3.92934 12.5886 3.42149 13.3415 3.0708 14.1702C2.72628 14.9815 2.54047 15.8514 2.52344 16.7326C2.52294 16.7524 2.52642 16.7721 2.53365 16.7906C2.54089 16.809 2.55175 16.8258 2.56558 16.84C2.57941 16.8542 2.59595 16.8654 2.6142 16.8731C2.63246 16.8808 2.65207 16.8848 2.67188 16.8848H3.78516C3.8668 16.8848 3.93174 16.8198 3.93359 16.74C3.9707 15.3076 4.5459 13.9661 5.5627 12.9493C6.61475 11.8973 8.01191 11.3184 9.5 11.3184C10.9881 11.3184 12.3853 11.8973 13.4373 12.9493C14.4541 13.9661 15.0293 15.3076 15.0664 16.74C15.0683 16.8217 15.1332 16.8848 15.2148 16.8848H16.3281C16.3479 16.8848 16.3675 16.8808 16.3858 16.8731C16.4041 16.8654 16.4206 16.8542 16.4344 16.84C16.4483 16.8258 16.4591 16.809 16.4663 16.7906C16.4736 16.7721 16.4771 16.7524 16.4766 16.7326C16.458 15.8457 16.2743 14.9829 15.9292 14.1684ZM9.5 9.9082C8.64834 9.9082 7.84678 9.57607 7.24375 8.97305C6.64072 8.37002 6.30859 7.56846 6.30859 6.7168C6.30859 5.86514 6.64072 5.06357 7.24375 4.46055C7.84678 3.85752 8.64834 3.52539 9.5 3.52539C10.3517 3.52539 11.1532 3.85752 11.7563 4.46055C12.3593 5.06357 12.6914 5.86514 12.6914 6.7168C12.6914 7.56846 12.3593 8.37002 11.7563 8.97305C11.1532 9.57607 10.3517 9.9082 9.5 9.9082Z"
+                                        fill="#666666" />
+                                </svg>
+                                Личный кабинет
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="header__text">
+                            <div class="header__title">
+                                <h1>
+                                    <span>Online</span> работа <br />
+                                    врачам рентгенологам
+                                </h1>
+                            </div>
+                            <div class="header__subtitle">
+                                <p>Подработка или постоянная работа для врачей рентгенологов
+                                    на online платформе длячтения рентгкновских снимков
+                                </p>
+                            </div>
+
+                            <div class="header__btn">
+                                <button class="btn ">Войти</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="header__img">
+                            <picture>
+                                <source media="(max-width: 568px)" srcset="image/1screen-pc-576w.png">
+                                <source media="(min-width: 568px)" srcset="image/1screen-pc.png">
+                                <img src="image/1screen-pc.png">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="how-work">
+            <div class="container">
+                <div class="how-work__title">
+                    <h2>
+                        Как работает платформа
+                    </h2>
+                </div>
+                <div class="how-work__steps">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="how-work__steps-step step">
+                                <div class="step__header">
+                                    <div class="step__header-number">
+                                        <p>01</p>
+                                    </div>
+                                    <div class="step__header-title">
+                                        <h4>распределение<br />
+                                            снимка</h4>
+                                    </div>
+                                </div>
+                                <div class="step__text">
+                                    <p>Интелектуальная система<br />
+                                        распределяет неописанный снимок<br />
+                                        на свободного доктора</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="how-work__steps-step step">
+                                <div class="step__header">
+                                    <div class="step__header-number">
+                                        <p>02</p>
+                                    </div>
+                                    <div class="step__header-title">
+                                        <h4>описание снимка</h4>
+                                    </div>
+                                </div>
+                                <div class="step__text">
+                                    <p>Доктор производит описание
+                                        <br /> снимка с помощью шаблонизированной
+                                        системы</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="how-work__steps-step step">
+                                <div class="step__header">
+                                    <div class="step__header-number">
+                                        <p>03</p>
+                                    </div>
+                                    <div class="step__header-title">
+                                        <h4>Подпись результата <br />
+                                            описания ЭЦП</h4>
+                                    </div>
+                                </div>
+                                <div class="step__text">
+                                    <p>После описания доктор <br />
+                                        проверяет получившееся заключение <br />
+                                        и подтверждает его электронной
+                                        цифровой подписью</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="how-work__steps-step step">
+                                <div class="step__header">
+                                    <div class="step__header-number">
+                                        <p>06</p>
+                                    </div>
+                                    <div class="step__header-title">
+                                        <h4>Начисление за <br />
+                                            описание</h4>
+                                    </div>
+                                </div>
+                                <div class="step__text">
+                                    <p>В личном кабинете происходит
+                                        начисление за прочитанный доктором
+                                        снимок</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="how-work__steps-step step">
+                                <div class="step__header">
+                                    <div class="step__header-number">
+                                        <p>05</p>
+                                    </div>
+                                    <div class="step__header-title">
+                                        <h4>получение результата</h4>
+                                    </div>
+                                </div>
+                                <div class="step__text">
+                                    <p>Клиент получает уведомление <br />
+                                        о готовности результата в личном
+                                        кабинете</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="how-work__steps-step step">
+                                <div class="step__header">
+                                    <div class="step__header-number">
+                                        <p>04</p>
+                                    </div>
+                                    <div class="step__header-title">
+                                        <h4>Подтверждение<br />
+                                            описания</h4>
+                                    </div>
+                                </div>
+                                <div class="step__text">
+                                    <p>Система ожидает совпадене описания <br />
+                                        2 доктором</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="plus-work">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="plus-work__img">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="image/3screen-pc-576w.png">
+                                <source media="(min-width: 768px)" srcset="image/3screen-pc.png">
+                                <img src="image/3screen-pc.png">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="plus-work__advantages">
+                            <div class="plus-work__advantages-title">
+                                <h2>Плюсы работы <br />
+                                    в платформе</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="plus-work__advantages-item">
+                                        <img src="image/icons/desktop.svg" alt="work">
+                                        <h4>Работа из любого места</h4>
+                                        <p>Не надо никуда ехать, можно
+                                            работать со своего рабочего
+                                            места</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="plus-work__advantages-item">
+                                        <img src="image/icons/back-in-time.svg" alt="time">
+                                        <h4>Работа в любое удобное
+                                            время</h4>
+                                        <p>Нет строго определенного
+                                            времени раоты</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="plus-work__advantages-item">
+                                        <img src="image/icons/documents.svg" alt="documents">
+                                        <h4>Официальный договор</h4>
+                                        <p>Заключается официальный
+                                            договор</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="plus-work__advantages-item">
+                                        <img src="image/icons/credit-card.svg" alt="card">
+                                        <h4>зарплата на карту</h4>
+                                        <p>Зарплата переводится <br />
+                                            2 раза в месяц</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="plus-work__advantages-btn btn">Зарегистрироваться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how-start">
+            <div class="container">
+                <div class="how-start__title">
+                    <h2>Как начать зарабатывать<br />
+                        на платформе?</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="how-start__step">
+                            <div class="how-start__step-title">
+                                <span>01</span>
+                                <h4>регистрация
+                                </h4>
+                            </div>
+                            <div class="how-start__step-text">
+                                <p>Пройдите регистрацию на платформе, указав свои<br />
+                                    данные</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="how-start__step">
+                            <div class="how-start__step-title">
+                                <span>04</span>
+                                <h4>пройдите тестирование
+                                </h4>
+                            </div>
+                            <div class="how-start__step-text">
+                                <p>После верификации в ЛК откроется вкладка тестирование,
+                                    необходимо пройти тестирование за определенное время</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="how-start__step">
+                            <div class="how-start__step-title">
+                                <span>02</span>
+                                <h4>Подтверждение учетной записи</h4>
+                            </div>
+                            <div class="how-start__step-text">
+                                <p>Подтвердите свою учетную запись, пройдя по ссылке<br />
+                                    из письма на электронке</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="how-start__step">
+                            <div class="how-start__step-title">
+                                <span>05</span>
+                                <h4>Подписание договора
+                                </h4>
+                            </div>
+                            <div class="how-start__step-text">
+                                <p>После тестирования необходимо загрузить оставшиеся
+                                    документы на платформу и подписать договор</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="how-start__step">
+                            <div class="how-start__step-title">
+                                <span>03</span>
+                                <h4>загрузка документов
+                                </h4>
+                            </div>
+                            <div class="how-start__step-text">
+                                <p>Загрузите необходимые документы на сайт и ожидайте
+                                    верификации</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="how-start__step">
+                            <div class="how-start__step-title">
+                                <span>06</span>
+                                <h4>описание снимков
+                                </h4>
+                            </div>
+                            <div class="how-start__step-text">
+                                <p>После подписания договора откроется вкладка чтения
+                                    online снимков.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="how-start__btn btn">Зарегистрироваться</button>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="footer__logo">
+                            <a href="#">
+                                <img src="image/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul class="footer__lists">
+                            <li>О нас</li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul class="footer__lists">
+                            <li>Клиенту</li>
+                            <li><a href="#">Проверка результатов</a></li>
+                            <li><a href="#">Обращение клиентов</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="footer__lists">
+                            <li>Информация</li>
+                            <li><a href="#">Обработка персональных данных</a></li>
+                            <li><a href="#">Пользовательское соглашение</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

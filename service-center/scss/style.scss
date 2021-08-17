@@ -1,0 +1,42 @@
+@import "mixins.scss";
+@import "fonts.scss";
+
+$mw: 1180;
+@import "reset.scss";
+
+html{
+    font-size: 14px;
+    min-width: 320px;
+    box-sizing: border-box;
+}
+body {
+    color: #262729;
+    &.lock {
+        overflow: hidden;
+    }
+    a {
+        color: #272d3b;
+    }
+}
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    overflow: visible;
+}
+
+.container{
+    max-width: $mw + px;
+    margin: 0 auto;
+    padding: 0 10px;
+    min-width: 280px;
+    @media screen and (max-width:1280px) {
+        padding: 0 20px;
+    }
+}
+
+@import "ui.scss";
+
+@import "header.scss";
+@import "content.scss";
+@import "footer.scss";
+@import "popup.scss";
