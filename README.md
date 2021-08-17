@@ -21,12 +21,12 @@
 <br />
 <br />
 
-<details>
-  <summary>:zap: Statistics:</summary>
-  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dezous&show_icons=true&theme=onedark)
+### Statistics
+
+ ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dezous&show_icons=true&theme=onedark)
     <br />
-   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)]
-</details>
+ [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)]
+
 
 [linkedin]: https://www.linkedin.com//in/vladislav-karliuk-018b8a151/
 [instagram]: https://www.instagram.com/dezous/
