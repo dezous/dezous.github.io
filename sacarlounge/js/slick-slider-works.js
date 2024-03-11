@@ -11,7 +11,6 @@ $(document).ready(function () {
         slick.$prev = prev;
         slick.$next = next;
     }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-        console.log('beforeChange');
         let
             cur = $(slick.$slides[nextSlide]);
         console.log(slick.$prev, slick.$next);
