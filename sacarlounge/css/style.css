@@ -325,7 +325,7 @@ section>div:not(section>.block-form) {
     display: inline;
 }
 
-.h2title-box button {
+.h2title-box a {
     margin-left: auto;
 }
 
