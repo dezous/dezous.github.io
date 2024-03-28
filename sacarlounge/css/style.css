@@ -2178,12 +2178,12 @@ section>div:not(section>.block-form) {
     background: var(--color-lightGrey);
 }
 
-.tab-btn p {
+.tab-btn {
     color: var(--color-red);
     text-align: left;
 }
 
-.tab-btn.collapsed p {
+.tab-btn.collapsed {
     color: var(--color-black);
 }
 
