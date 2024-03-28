@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Coin Horizon</title>
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <link rel="apple-touch-icon" sizes="180x180" href="img/icons/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon/favicon-16x16.png">
@@ -17,204 +17,230 @@
 </head>
 
 <body>
-    <main class="not-padding">
-        <section id="content">
-            <div class="burger2-box">
-                <div class="burger2">
-                    <span></span>
+<main class="not-padding">
+    <section id="content">
+        <div class="burger2-box">
+            <div class="burger2">
+                <span></span>
+            </div>
+        </div>
+        <div class="mask-content"></div>
+        <aside id="sidebar" class="mob-menu wow animate__animated animate__fadeInLeftBig">
+            <div class="sidebar__content">
+                <div class="sidebar__content-box">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="img/Logo.png" alt="logo"/>
+                        </a>
+                    </div>
+                    <ul class="sidenav">
+                        <li>
+                            <a href="dashboard.html">
+                                <object data="dashboard.svg" type="image/svg+xml">
+                                    <img src="img/icons/dashboard.svg" alt=""/></object>
+                                Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="make-deposit-1.html">
+                                <object data="deposit.svg" type="image/svg+xml">
+                                    <img src="img/icons/deposit.svg" alt=""/></object>
+                                Make deposit</a>
+                        </li>
+                        <li>
+                            <a href="partners2.html">
+                                <object data="partners.svg" type="image/svg+xml">
+                                    <img src="img/icons/partners.svg" alt=""/></object>
+                                Partners</a>
+                        </li>
+                        <li>
+                            <a href="withdrawal.html">
+                                <object data="safe.svg" type="image/svg+xml">
+                                    <img src="img/icons/safe.svg" alt=""/></object>
+                                Withdrawal</a>
+                        </li>
+                    </ul>
+                    <ul class="hist-sett">
+                        <li>
+                            <a href="history.html">
+                                <object data="history.svg" type="image/svg+xml">
+                                    <img src="img/icons/history.svg" alt=""/></object>
+                                History</a>
+                        </li>
+                        <li>
+                            <a href="settings.html">
+                                <object data="settings.svg" type="image/svg+xml">
+                                    <img src="img/icons/settings.svg" alt=""/></object>
+                                Setting</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="mask-content"></div>
-            <aside id="sidebar" class="mob-menu wow animate__animated animate__fadeInLeftBig">
-                <div class="sidebar__content">
-                    <div class="sidebar__content-box">
-                        <div class="logo">
-                            <a href="#">
-                                <img src="img/Logo.png" alt="logo" />
-                            </a>
+        </aside>
+        <div class="content wow animate__animated animate__fadeInRightBig" id="partners2">
+            <div class="content__container">
+                <div class="content__head">
+                    <div class="content__welcom">
+                        <p>Welcom Back.</p>
+                    </div>
+                      <div class="referal">
+                        <div class="referal__box">
+                            <p>Your Referral Link:</p>
+                            <label class="copy-box" for="referral-link">
+                                <input class="copy-text" type="text"
+                                       id="referral-link"
+                                       name="referral-link"
+                                       value="https://coin-horizon.io/investing?ref=12655"/>
+                                <div class="button">
+                                    <a href="#" class="btn1 copy-btn">Copy</a>
+                                </div>
+                            </label>
                         </div>
-                        <ul class="sidenav">
-                            <li>
-                                <a href="dashboard.html"><object data="dashboard.svg" type="image/svg+xml">
-                                        <img src="img/icons/dashboard.svg" /></object>Dashboard</a>
-                            </li>
-                            <li>
-                                <a href="make-deposit-1.html"><object data="deposit.svg" type="image/svg+xml">
-                                        <img src="img/icons/deposit.svg" /></object>Make deposit</a>
-                            </li>
-                            <li>
-                                <a href="partners2.html"><object data="partners.svg" type="image/svg+xml">
-                                        <img src="img/icons/partners.svg" /></object>Partners</a>
-                            </li>
-                            <li>
-                                <a href="withdrawal.html"><object data="safe.svg" type="image/svg+xml">
-                                        <img src="img/icons/safe.svg" /></object>Withdrawal</a>
-                            </li>
-                        </ul>
-                        <ul class="hist-sett">
-                            <li>
-                                <a href="history.html"><object data="history.svg" type="image/svg+xml">
-                                        <img src="img/icons/history.svg" /></object>History</a>
-                            </li>
-                            <li>
-                                <a href="settings.html"><object data="settings.svg" type="image/svg+xml">
-                                        <img src="img/icons/settings.svg" /></object>Setting</a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
-            </aside>
-            <div class="content wow animate__animated animate__fadeInRightBig" id="partners2">
-                <div class="content__container">
-                    <div class="content__head">
-                        <div class="content__welcom">
-                            <p>Welcom Back.</p>
+                <div class="content__main">
+                    <div class="balance ">
+                        <div class="balance__item">
+                            <img src="img/deposit-icon1.png" alt=""/>
+                            <div class="balance__item-content">
+                                <p class="balance__item-name">Account balance</p>
+                                <p class="balance__item-many">$1125.00</p>
+                                <a href="#" class="btn4">Withdrawal</a>
+                            </div>
                         </div>
-                        <div class="referal">
-                            <div class="referal">
-                                <div class="referal__box">
-                                    <p>Your Referral Link:</p>
-                                    <label class="copy-box" for="referal-link"><input class="copy-text" type="text" name="referal-link" value="https://coin-horizon.io/investing?ref=12655" />
-                                        <div class="button">
-                                            <a href="#" class="btn1 copy-btn">Copy</a>
-                                        </div>
-                                    </label>
-                                </div>
+                        <div class="balance__item">
+                            <img src="img/deposit-icon2.png" alt=""/>
+                            <div class="balance__item-content">
+                                <p class="balance__item-name">Account balance</p>
+                                <p class="balance__item-many">$1125.00</p>
+                                <a href="#" class="btn4">Withdrawal</a>
+                            </div>
+                        </div>
+                        <div class="balance__item">
+                            <img src="img/deposit-icon3.png" alt=""/>
+                            <div class="balance__item-content">
+                                <p class="balance__item-name">Account balance</p>
+                                <p class="balance__item-many">$1125.00</p>
+                                <a href="#" class="btn4">Withdrawal</a>
                             </div>
                         </div>
                     </div>
-                    <div class="content__main">
-                        <div class="balance ">
-                            <div class="balance__item">
-                                <img src="img/deposit-icon1.png" alt="" />
-                                <div class="balance__item-content">
-                                    <p class="balance__item-name">Account balance</p>
-                                    <p class="balance__item-many">$1125.00</p>
-                                    <a href="#" class="btn4">Withdrawal</a>
-                                </div>
+                    <div class="balance statistics-referals">
+                        <div class="balance__item statistics-referals__item">
+                            <img src="img/people.png" alt=""/>
+                            <div class="balance__item-content">
+                                <p class="balance__item-name statistics-referals__item-name">Total Referrals</p>
+                                <p class="balance__item-many statistics-referals__item-info">126</p>
+
                             </div>
-                            <div class="balance__item">
-                                <img src="img/deposit-icon2.png" alt="" />
-                                <div class="balance__item-content">
-                                    <p class="balance__item-name">Account balance</p>
-                                    <p class="balance__item-many">$1125.00</p>
-                                    <a href="#" class="btn4">Withdrawal</a>
-                                </div>
+                        </div>
+                        <div class="balance__item statistics-referals__item">
+                            <img src="img/people.png" alt=""/>
+                            <div class="balance__item-content">
+                                <p class="balance__item-name statistics-referals__item-name">Total Active Referrals</p>
+                                <p class="balance__item-many statistics-referals__item-info">90</p>
+
                             </div>
-                            <div class="balance__item">
-                                <img src="img/deposit-icon3.png" alt="" />
-                                <div class="balance__item-content">
-                                    <p class="balance__item-name">Account balance</p>
-                                    <p class="balance__item-many">$1125.00</p>
-                                    <a href="#" class="btn4">Withdrawal</a>
+                        </div>
+                        <div class="balance__item statistics-referals__item">
+                            <img src="img/people.png" alt=""/>
+                            <div class="balance__item-content">
+                                <p class="balance__item-name statistics-referals__item-name">Total affiliates
+                                    investments</p>
+                                <p class="balance__item-many statistics-referals__item-info">$2365.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imgs-block">
+                        <div class="imgs-block__item">
+                            <div class="imgs-block__item-img">
+                                <img src="img/120.jpg" alt="120x120">
+                            </div>
+                            <div class="imgs-block__item-text html-copy">
+                                <div class="html-copy__title">
+                                    <p>120x120</p>
+                                </div>
+                                <div class="html-copy__box">
+                                    <div class="html-copy__box-text">
+                                        <p class="text-html">
+                                            &lta
+                                            href="https://coinhorizon/?ref=EFEWF23f3f3ff3f" &gt&ltimg
+                                            src="https://coinhorizon/images/120.gif" ALT="cgbit.cc" &gt&lt/a&gt
+                                        </p>
+                                    </div>
+                                    <div class="html-copy__box-button">
+                                        <a href="#" class="copy-html">
+                                            <object data="copy.svg" type="svg"><img src="img/icons/copy.svg" alt="copy">
+                                            </object>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="balance statistics-referals">
-                            <div class="balance__item statistics-referals__item">
-                                <img src="img/people.png" alt="" />
-                                <div class="balance__item-content">
-                                    <p class="balance__item-name statistics-referals__item-name">Total Referrals</p>
-                                    <p class="balance__item-many statistics-referals__item-info">126</p>
-
-                                </div>
+                        <div class="imgs-block__item">
+                            <div class="imgs-block__item-img">
+                                <img src="img/125.jpg" alt="125x125">
                             </div>
-                            <div class="balance__item statistics-referals__item">
-                                <img src="img/people.png" alt="" />
-                                <div class="balance__item-content">
-                                    <p class="balance__item-name statistics-referals__item-name">Total Active Referrals</p>
-                                    <p class="balance__item-many statistics-referals__item-info">90</p>
-
+                            <div class="imgs-block__item-text html-copy">
+                                <div class="html-copy__title">
+                                    <p>125x125</p>
                                 </div>
-                            </div>
-                            <div class="balance__item statistics-referals__item">
-                                <img src="img/people.png" alt="" />
-                                <div class="balance__item-content">
-                                    <p class="balance__item-name statistics-referals__item-name">Total affiliates investments</p>
-                                    <p class="balance__item-many statistics-referals__item-info">$2365.00</p>
+                                <div class="html-copy__box">
+                                    <div class="html-copy__box-text">
+                                        <p class="text-html"> &lta
+                                            href="https://coinhorizon/?ref=EFEWF23f3f3ff3f" &gt&ltimg
+                                            src="https://coinhorizon/images/120.gif" ALT="cgbit.cc" &gt&lt/a&gt </p>
+                                    </div>
+                                    <div class="html-copy__box-button">
+                                        <a href="#" class="copy-html">
+                                            <object data="copy.svg" type="svg"><img src="img/icons/copy.svg" alt="copy">
+                                            </object>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="imgs-block">
-                            <div class="imgs-block__item">
-                                <div class="imgs-block__item-img">
-                                    <img src="img/120.jpg" alt="120x120">
+                        <div class="imgs-block__item">
+                            <div class="imgs-block__item-img">
+                                <img src="img/160.jpg" alt="160x600">
+                            </div>
+                            <div class="imgs-block__item-text html-copy">
+                                <div class="html-copy__title">
+                                    <p>160x600</p>
                                 </div>
-                                <div class="imgs-block__item-text html-copy">
-                                    <div class="html-copy__title">
-                                        <p>120x120</p>
+                                <div class="html-copy__box">
+                                    <div class="html-copy__box-text">
+                                        <p class="text-html"> &lta
+                                            href="https://coinhorizon/?ref=EFEWF23f3f3ff3f" &gt&ltimg
+                                            src="https://coinhorizon/images/120.gif" ALT="cgbit.cc" &gt&lt/a&gt </p>
                                     </div>
-                                    <div class="html-copy__box">
-                                        <div class="html-copy__box-text">
-                                            <p class="text-html"> 
-                                               &lta
-                                                href="https://coinhorizon/?ref=EFEWF23f3f3ff3f" &gt&ltimg
-                                                src="https://coinhorizon/images/120.gif" ALT="cgbit.cc" &gt&lt/a&gt 
-                                            </p>
-                                        </div>
-                                        <div class="html-copy__box-button">
-                                            <a href="#" class="copy-html"><object data="copy.svg" type="svg"><img src="img/icons/copy.svg" alt="copy"></object></a>
-                                        </div>
+                                    <div class="html-copy__box-button">
+                                        <a href="#" class="copy-html">
+                                            <object data="copy.svg" type="svg"><img src="img/icons/copy.svg" alt="copy">
+                                            </object>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="imgs-block__item">
-                                <div class="imgs-block__item-img">
-                                    <img src="img/125.jpg" alt="125x125">
-                                </div>
-                                <div class="imgs-block__item-text html-copy">
-                                    <div class="html-copy__title">
-                                        <p>125x125</p>
-                                    </div>
-                                    <div class="html-copy__box">
-                                        <div class="html-copy__box-text">
-                                            <p class="text-html"> &lta
-                                                href="https://coinhorizon/?ref=EFEWF23f3f3ff3f" &gt&ltimg
-                                                src="https://coinhorizon/images/120.gif" ALT="cgbit.cc" &gt&lt/a&gt </p>
-                                        </div>
-                                        <div class="html-copy__box-button">
-                                            <a href="#" class="copy-html"><object data="copy.svg" type="svg"><img src="img/icons/copy.svg" alt="copy"></object></a>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="imgs-block__item">
+                            <div class="imgs-block__item-img">
+                                <img src="img/250.jpg" alt="250x250">
                             </div>
-                            <div class="imgs-block__item">
-                                <div class="imgs-block__item-img">
-                                    <img src="img/160.jpg" alt="160x600">
+                            <div class="imgs-block__item-text html-copy">
+                                <div class="html-copy__title">
+                                    <p>250x250</p>
                                 </div>
-                                <div class="imgs-block__item-text html-copy">
-                                    <div class="html-copy__title">
-                                        <p>160x600</p>
+                                <div class="html-copy__box">
+                                    <div class="html-copy__box-text">
+                                        <p class="text-html"> &lta
+                                            href="https://coinhorizon/?ref=EFEWF23f3f3ff3f" &gt&ltimg
+                                            src="https://coinhorizon/images/120.gif" ALT="cgbit.cc" &gt&lt/a&gt </p>
                                     </div>
-                                    <div class="html-copy__box">
-                                        <div class="html-copy__box-text">
-                                            <p class="text-html"> &lta
-                                                href="https://coinhorizon/?ref=EFEWF23f3f3ff3f" &gt&ltimg
-                                                src="https://coinhorizon/images/120.gif" ALT="cgbit.cc" &gt&lt/a&gt </p>
-                                        </div>
-                                        <div class="html-copy__box-button">
-                                            <a href="#" class="copy-html"><object data="copy.svg" type="svg"><img src="img/icons/copy.svg" alt="copy"></object></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="imgs-block__item">
-                                <div class="imgs-block__item-img">
-                                    <img src="img/250.jpg" alt="250x250">
-                                </div>
-                                <div class="imgs-block__item-text html-copy">
-                                    <div class="html-copy__title">
-                                        <p>250x250</p>
-                                    </div>
-                                    <div class="html-copy__box">
-                                        <div class="html-copy__box-text">
-                                            <p class="text-html"> &lta
-                                                href="https://coinhorizon/?ref=EFEWF23f3f3ff3f" &gt&ltimg
-                                                src="https://coinhorizon/images/120.gif" ALT="cgbit.cc" &gt&lt/a&gt </p>
-                                        </div>
-                                        <div class="html-copy__box-button">
-                                            <a href="#" class="copy-html"><object data="copy.svg" type="svg"><img src="img/icons/copy.svg" alt="copy"></object></a>
-                                        </div>
+                                    <div class="html-copy__box-button">
+                                        <a href="#" class="copy-html">
+                                            <object data="copy.svg" type="svg"><img src="img/icons/copy.svg" alt="copy">
+                                            </object>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -222,11 +248,12 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+        </div>
+    </section>
+</main>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
