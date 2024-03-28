@@ -1,8 +1,7 @@
 $(document).ready(function () {
     let rev = $('.slider-3d__box');
     rev.on('init', function (event, slick, currentSlide) {
-        let
-            cur = $(slick.$slides[slick.currentSlide]),
+        let cur = $(slick.$slides[slick.currentSlide]),
             next = cur.next(),
             prev = cur.prev();
         prev.addClass('slick-sprev');
@@ -11,14 +10,11 @@ $(document).ready(function () {
         slick.$prev = prev;
         slick.$next = next;
     }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-        console.log('beforeChange');
-        let
-            cur = $(slick.$slides[nextSlide]);
-        console.log(slick.$prev, slick.$next);
+        let cur = $(slick.$slides[nextSlide]);
         slick.$prev.removeClass('slick-sprev');
         slick.$next.removeClass('slick-snext');
-        next = cur.next(),
-            prev = cur.prev();
+        next = cur.next();
+        prev = cur.prev();
         prev.addClass('slick-sprev');
         next.addClass('slick-snext');
         slick.$prev = prev;
