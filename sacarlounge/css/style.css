@@ -293,7 +293,7 @@ section>div:not(section>.block-form) {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Axiforma";
+    font-family: "Axiforma",sans-serif;
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 2.2rem;
