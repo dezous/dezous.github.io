@@ -1618,8 +1618,6 @@
                     }
                     const buttonClose = e.target.closest(`[${this.options.attributeCloseButton}]`);
                     if (buttonClose || !e.target.closest(`.${this.options.classes.popupContent}`) && this.isOpen && !e.target.closest(".iti")) {
-                        console.log(e.target);
-                        console.log(e.target.closest(".iti__dropdown-content"));
                         e.preventDefault();
                         this.close();
                         return;
@@ -1784,7 +1782,7 @@
             nationalMode: false,
             autoPlaceholder: "polite",
             customPlaceholder: (selectedCountryPlaceholder, selectedCountryData) => "ex : " + selectedCountryPlaceholder,
-            loadUtils: () => __webpack_require__.e(183).then(__webpack_require__.bind(__webpack_require__, 183))
+            loadUtils: () => __webpack_require__.e(767).then(__webpack_require__.bind(__webpack_require__, 767))
         });
         let gotoblock_gotoBlock = (targetBlock, noHeader = false, speed = 500, offsetTop = 0) => {
             const targetBlockElement = document.querySelector(targetBlock);
